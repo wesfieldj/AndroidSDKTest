@@ -12,7 +12,7 @@
 - [Adding the SDK to your project](#installation)
 - [Initializing the SDK](#installation)
 - [Getting started with Deeplinking](#deeplinking)
-- [Guides](#guides)
+- [SDK Guides](#guides)
 - [API](#api) 
 - [Sample App](#demo)
 - [Known issues with integrating the SDK](#issues)
@@ -120,7 +120,7 @@ public class AFApplication extends Application {
  ## <a id="guides"> 📖 Guides
 
 Great installation and setup guides can be viewed [here](/Docs/Guides.md).
-- [init SDK Guide](/Docs/Guides.md#init-sdk)
+- [In-app Events](/Docs/Guides.md#init-sdk)
 - [Deeplinking Guide](/Docs/Guides.md#deeplinking)
 - [Uninstall Guide](/Docs/Guides.md#track-app-uninstalls)
 
