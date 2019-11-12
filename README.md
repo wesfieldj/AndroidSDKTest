@@ -14,7 +14,9 @@
 - [Getting started with Deeplinking](#installation)
 - [Guides](#guides)
 - [API](#api) 
-- [Sample App](#demo)  
+- [Sample App](#demo)
+- [Known issues with integrating the SDK](#issues)
+- [Testing installs](#testing)
 
 
 ## <a id="installation">📲Installation
