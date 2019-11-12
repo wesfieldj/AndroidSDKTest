@@ -9,10 +9,12 @@
 
 ## Table of content
 
-- [Installation](#installation)
+- [Adding the SDK to your project](#installation)
+- [Initializing the SDK](#installation)
+- [Getting started with Deeplinking](#installation)
 - [Guides](#guides)
 - [API](#api) 
-- [Demo](#demo)  
+- [Sample App](#demo)  
 
 
 ## <a id="installation">📲Installation
@@ -69,7 +71,7 @@ import com.appsflyer.AppsFlyerLibCore;
 import java.util.Map;
 
 public class AFApplication extends Application {
-    private static final String AF_DEV_KEY = "K2aMGPY3SkC9WckYUgHJ99";
+    private static final String AF_DEV_KEY = "Q2aM**********HJ56";
 
     @Override
     public void onCreate() {
