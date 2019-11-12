@@ -26,7 +26,7 @@ repositories {
 }
 ```
 2. Add the latest version of *AppsFlyer SDK* as a dependency. <br />
-   It is highly reccomeneded to also add the *install referrer library*.
+   It is highly reccomeneded to also add the [*install referrer library*](https://developer.android.com/google/play/installreferrer/library).
    
 ```groovy
 implementation 'com.appsflyer:af-android-sdk:5.+'
@@ -39,9 +39,9 @@ implementation 'com.android.installreferrer:installreferrer:1.0'
 
 ## <a id="setup"> 🚀 Setup
     
-#### AndroidManifest setup
+#### 1. AndroidManifest setup
 
-Add the following persmissions to your AndroidManifest.xml file.
+Add the following persmissions to your [AndroidManifest.xml](https://developer.android.com/guide/topics/manifest/manifest-intro) file. <br />
 The permissions should be added outside of the `<application>` tag.
 
 ```xml
@@ -52,9 +52,9 @@ The permissions should be added outside of the `<application>` tag.
 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 ```
 
-#### Init the SDK
+#### 2. Init the SDK
 
-It is highly reccomended to init the SDK in a [Application](https://developer.android.com/reference/android/app/Application) class.
+It is highly reccomended to init the SDK in a [Application](https://developer.android.com/reference/android/app/Application) class. <br />
 This will prevent the SDK from being destroyed thoughout the lifecycle of the app.
 
 ```java
