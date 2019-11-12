@@ -20,7 +20,7 @@
 
 ## <a id="dashboard">💻 Create a dashboard for your app
     
-If your app does not have a `AppsFlyer dashboard` your will need to [Add a new app](https://support.appsflyer.com/hc/en-us/articles/207377436-Adding-a-new-app).
+If your app does not have a `AppsFlyer` [dashboard](https://support.appsflyer.com/hc/en-us/articles/209680763-Dashboard-overview-explained) your will need to [Add a new app](https://support.appsflyer.com/hc/en-us/articles/207377436-Adding-a-new-app).
 
 
 ## <a id="installation">📲Adding the SDK to your project
