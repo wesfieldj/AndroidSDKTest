@@ -123,7 +123,7 @@ Great installation and setup guides can be viewed [here](/Docs/Guides.md).
 
 ## <a id="api"> 📑 API
   
-See the full [API](/Docs/API.md) available for this plugin.
+See the full API [here](https://support.appsflyer.com/hc/en-us/articles/207032126-AppsFlyer-SDK-Integration-Android#api-reference.
 
 ## <a id="demo"> 📱 Sample App
   
@@ -134,9 +134,15 @@ See the full [API](/Docs/API.md) available for this plugin.
     
 ## <a id="testing"> 🎯 Testing installs
     
-    1. Whitelisting your test device
-    2. Simulating an organic install
-    3. Simulating a non-organic install
+1. [Whitelisting](https://support.appsflyer.com/hc/en-us/articles/207031996) your test device.
+2. Simulating a non-organic install:
+    a. Make sure your device is whitelisted.
+    b. Generate a AppsFlyer [tracking link](https://support.appsflyer.com/hc/en-us/articles/207033836-Custom-link-management#intro).
+    c. Uninstall the app from the device.
+    d. Click on the link on the device.
+    e. Install the app.
+    f. You should see a non-organic install on your [dashboard](https://support.appsflyer.com/hc/en-us/articles/209680763-Dashboard-overview-explained).
+    
     
     
 
