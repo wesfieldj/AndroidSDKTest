@@ -130,17 +130,18 @@ See the full API [here](https://support.appsflyer.com/hc/en-us/articles/20703212
   Check out the sample app page [here](https://github.com/AppsFlyerSDK/AndroidSampleApp).
   
 ## <a id="issues"> 🔎 Known issues with integrating the SDK
-    ...
+    
+...
     
 ## <a id="testing"> 🎯 Testing installs
     
-1. [Whitelisting](https://support.appsflyer.com/hc/en-us/articles/207031996) your test device.
-2. Simulating a non-organic install:
-    a. Make sure your device is whitelisted.
-    b. Generate a AppsFlyer [tracking link](https://support.appsflyer.com/hc/en-us/articles/207033836-Custom-link-management#intro).
-    c. Uninstall the app from the device.
-    d. Click on the link on the device.
-    e. Install the app.
+1. [Whitelisting](https://support.appsflyer.com/hc/en-us/articles/207031996) your test device.<br />
+2. Simulating a non-organic install:<br />
+    a. Make sure your device is whitelisted.<br />
+    b. Generate a AppsFlyer [tracking link](https://support.appsflyer.com/hc/en-us/articles/207033836-Custom-link-management#intro).<br />
+    c. Uninstall the app from the device.<br />
+    d. Click on the link on the device.<br />
+    e. Install the app.<br />
     f. You should see a non-organic install on your [dashboard](https://support.appsflyer.com/hc/en-us/articles/209680763-Dashboard-overview-explained).
     
     
