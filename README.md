@@ -64,6 +64,8 @@ This will prevent the SDK from being destroyed thoughout the lifecycle of the ap
 
 **Important: You must insert your apps [dev key](https://support.appsflyer.com/hc/en-us/articles/211719806-Global-app-settings-#sdk-dev-key). It is required for all apps.** 
 
+If you do not already have a `Application` level class then you will need to create one. To do this, in the same folder as your `MainActivity.java`, create a new Java class. (in this example the class is called `AFApplication.java`). 
+
 ```java
 import android.app.Application;
 import android.util.Log;
