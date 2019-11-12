@@ -135,7 +135,9 @@ See the full API [here](https://support.appsflyer.com/hc/en-us/articles/20703212
     
 ## <a id="testing"> 🎯 Testing installs
     
-1. [Whitelisting](https://support.appsflyer.com/hc/en-us/articles/207031996) your test device.<br />
+ To test the AppsFlyer SDK follow these steps:<br /><br />
+    
+1. [Whitelist](https://support.appsflyer.com/hc/en-us/articles/207031996) your test device.<br />
 2. Simulating a non-organic install:<br />
     a. Make sure your device is whitelisted.<br />
     b. Generate a AppsFlyer [tracking link](https://support.appsflyer.com/hc/en-us/articles/207033836-Custom-link-management#intro).<br />
