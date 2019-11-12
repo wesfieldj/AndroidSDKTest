@@ -11,7 +11,7 @@
 
 - [Adding the SDK to your project](#installation)
 - [Initializing the SDK](#installation)
-- [Getting started with Deeplinking](#installation)
+- [Getting started with Deeplinking](#deeplinking)
 - [Guides](#guides)
 - [API](#api) 
 - [Sample App](#demo)
@@ -19,7 +19,7 @@
 - [Testing installs](#testing)
 
 
-## <a id="installation">📲Installation
+## <a id="installation">📲Adding the SDK to your project
 
 #### A. Using Gradle
 1. Add the code below to Module-level `/app/build.gradle` before `dependencies`
@@ -41,7 +41,7 @@ implementation 'com.android.installreferrer:installreferrer:1.0'
 1. Download the [AF-Android-SDK.jar](https://s3-eu-west-1.amazonaws.com/download.appsflyer.com/Android/AF-Android-SDK.jar)
 2. Add it to your project
 
-## <a id="setup"> 🚀 Setup
+## <a id="setup"> 🚀 Initializing the SDK
     
 #### 1. AndroidManifest setup
 
@@ -108,7 +108,10 @@ public class AFApplication extends Application {
 }
 ```
 
+## <a id="deeplinking"> 🔗 Getting started with Deeplinking
 
+    
+    
  ## <a id="guides"> 📖 Guides
 
 Great installation and setup guides can be viewed [here](/Docs/Guides.md).
@@ -121,7 +124,20 @@ Great installation and setup guides can be viewed [here](/Docs/Guides.md).
   
 See the full [API](/Docs/API.md) available for this plugin.
 
-
-## <a id="demo"> 📱 Demo
+## <a id="demo"> 📱 Sample App
   
-  Check out the demo for this project [here](Docs/Guides.md#demo).
+  Check out the sample app page [here](https://github.com/AppsFlyerSDK/AndroidSampleApp).
+  
+## <a id="issues"> 🔎 Known issues with integrating the SDK
+    
+   #### ProGuard warning
+If you are using ProGuard and you encounter a warning regarding our AFKeystoreWrapper class, then add the following code to your ProGuard rules file:
+   ```
+   -keep class com.appsflyer.** { *; }
+   ```
+   
+   #### Backup rules
+    
+## <a id="testing"> 🎯 Testing installs
+    
+
