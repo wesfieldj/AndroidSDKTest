@@ -56,6 +56,9 @@ The permissions should be added outside of the `<application>` tag.
 
 It is highly reccomended to init the SDK in a [Application](https://developer.android.com/reference/android/app/Application) class. <br />
 This will prevent the SDK from being destroyed thoughout the lifecycle of the app.
+<br />
+
+**Important: You must insert your apps [dev key](https://support.appsflyer.com/hc/en-us/articles/211719806-Global-app-settings-#sdk-dev-key). It is required for all apps.** 
 
 ```java
 import android.app.Application;
