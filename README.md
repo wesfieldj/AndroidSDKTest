@@ -32,7 +32,7 @@ repositories {
 implementation 'com.appsflyer:af-android-sdk:5.+'
 implementation 'com.android.installreferrer:installreferrer:1.0'
 ```
-#### B. Manually adding a jar file
+#### B. Manually adding the jar file
 
 1. Download the [AF-Android-SDK.jar](https://s3-eu-west-1.amazonaws.com/download.appsflyer.com/Android/AF-Android-SDK.jar)
 2. Add it to your project
@@ -41,7 +41,7 @@ implementation 'com.android.installreferrer:installreferrer:1.0'
     
 #### 1. AndroidManifest setup
 
-Add the following persmissions to your [AndroidManifest.xml](https://developer.android.com/guide/topics/manifest/manifest-intro) file. <br />
+Add the following [persmissions](https://developer.android.com/guide/topics/permissions/overview) to your [AndroidManifest.xml](https://developer.android.com/guide/topics/manifest/manifest-intro) file. <br />
 The permissions should be added outside of the `<application>` tag.
 
 ```xml
