@@ -17,16 +17,24 @@
 
 ## <a id="installation">📲Installation
 
+#### Using Gradle
+1. Add the code below to Module-level `/app/build.gradle` before `dependencies`
+
 ```
 repositories {
     mavenCentral()
 }
 ```
-
+2. Add the latest version of AppsFlyer SDK as a dependency. 
+   It is highly reccomeneded to also add the install referrer library.
 ```
 implementation 'com.appsflyer:af-android-sdk:5.+'
 implementation 'com.android.installreferrer:installreferrer:1.0'
 ```
+#### Manually adding a jar file
+
+1. Download the AF-Android-SDK.jar
+2. Add it to your project
 
 ## <a id="setup"> 🚀 Setup
 
