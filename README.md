@@ -123,7 +123,7 @@ Great installation and setup guides can be viewed [here](/Docs/Guides.md).
 
 ## <a id="api"> 📑 API
   
-See the full API [here](https://support.appsflyer.com/hc/en-us/articles/207032126-AppsFlyer-SDK-Integration-Android#api-reference.
+See the full API [here](https://support.appsflyer.com/hc/en-us/articles/207032126-AppsFlyer-SDK-Integration-Android#api-reference).
 
 ## <a id="demo"> 📱 Sample App
   
