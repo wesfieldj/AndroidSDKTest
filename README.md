@@ -37,6 +37,11 @@ implementation 'com.android.installreferrer:installreferrer:1.0'
 2. Add it to your project
 
 ## <a id="setup"> 🚀 Setup
+    
+#### AndroidManifest setup
+
+Add the following persmissions to your AndroidManifest.xml file.
+The permissions should be added outside of the `<application>` tag.
 
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
@@ -45,6 +50,11 @@ implementation 'com.android.installreferrer:installreferrer:1.0'
 <!-- Optional : -->
 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 ```
+
+#### Init the SDK
+
+It is highly reccomended to init the SDK in a [Application](https://developer.android.com/reference/android/app/Application) class.
+This will prevent the SDK from being destroyed thoughout the lifecycle of the app.
 
 ```java
 import android.app.Application;
