@@ -8,7 +8,7 @@
 *When submitting an issue please specify your AppsFlyer sign-up (account) email , your app ID , production steps, logs, code snippets and any additional relevant information.*
 
 ## Table of content
-
+- [Create a dashboard for your app](#dashboard)
 - [Adding the SDK to your project](#installation)
 - [Initializing the SDK](#installation)
 - [Getting started with Deeplinking](#deeplinking)
@@ -17,6 +17,10 @@
 - [Sample App](#demo)
 - [Known issues with integrating the SDK](#issues)
 - [Testing installs](#testing)
+
+## <a id="dashboard">💻 Create a dashboard for your app
+    
+If your app does not have a `AppsFlyer dashboard` your will need to [Add a new app](https://support.appsflyer.com/hc/en-us/articles/207377436-Adding-a-new-app).
 
 
 ## <a id="installation">📲Adding the SDK to your project
