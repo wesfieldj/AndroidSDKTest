@@ -1,6 +1,6 @@
-# AndroidSDKTest
+# appsflyer_android_sdk
 
-<img src="https://support.appsflyer.com/hc/article_attachments/115011109089/android.png"  width="450">
+<img src="https://support.appsflyer.com/hc/article_attachments/115011109089/android.png"  width="250">
 
 
 🛠 In order for us to provide optimal support, we would kindly ask you to submit any issues to support@appsflyer.com
