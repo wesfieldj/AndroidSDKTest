@@ -110,6 +110,7 @@ public class AFApplication extends Application {
 
 ## <a id="deeplinking"> 🔗 Getting started with Deeplinking
 
+...
     
     
  ## <a id="guides"> 📖 Guides
@@ -129,15 +130,13 @@ See the full [API](/Docs/API.md) available for this plugin.
   Check out the sample app page [here](https://github.com/AppsFlyerSDK/AndroidSampleApp).
   
 ## <a id="issues"> 🔎 Known issues with integrating the SDK
-    
-   #### ProGuard warning
-If you are using ProGuard and you encounter a warning regarding our AFKeystoreWrapper class, then add the following code to your ProGuard rules file:
-   ```
-   -keep class com.appsflyer.** { *; }
-   ```
-   
-   #### Backup rules
+    ...
     
 ## <a id="testing"> 🎯 Testing installs
+    
+    1. Whitelisting your test device
+    2. Simulating an organic install
+    3. Simulating a non-organic install
+    
     
 
