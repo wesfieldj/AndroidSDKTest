@@ -25,8 +25,9 @@ repositories {
     mavenCentral()
 }
 ```
-2. Add the latest version of AppsFlyer SDK as a dependency. <br />
-   It is highly reccomeneded to also add the install referrer library.
+2. Add the latest version of *AppsFlyer SDK* as a dependency. <br />
+   It is highly reccomeneded to also add the *install referrer library*.
+   
 ```groovy
 implementation 'com.appsflyer:af-android-sdk:5.+'
 implementation 'com.android.installreferrer:installreferrer:1.0'
